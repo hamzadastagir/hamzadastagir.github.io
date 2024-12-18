@@ -14,7 +14,7 @@ My academic foundation in International Affairs, with a focus on the internation
 - **Data Engineering & Analytics:** Experienced in building end-to-end ETL pipelines, integrating structured and unstructured data, and delivering insights using PostgreSQL, Neo4j, Superset, and Python-based automation.
 - **Risk & Fraud Analysis:** Developed advanced intelligence platforms for sanction monitoring, scam detection, and fraud analysis using graph databases (Neo4j) and large-scale data ingestion frameworks.
 - **International Political Economy & Compliance:** Combining technical expertise with an understanding of international finance, geopolitical risk, and regulatory compliance to inform strategic decision-making.
-  
+
 ## Current Focus
 
 - **Fine-Tuning LLM Models with Custom Data:** I am exploring ways to leverage large language models for threat intelligence, risk analysis, and compliance by fine-tuning models with domain-specific data.
@@ -78,9 +78,13 @@ My academic foundation in International Affairs, with a focus on the internation
 - **Tools & Technologies:** Git, Docker, Terraform, YAML, GitHub Workflows, C++, PHP, NodeJS, JavaScript, Python, R, MS Office, Postgres, Neo4j
 - **Additional Skills:** OSINT (Open Source Intelligence), Fundamentals of Finance, Advanced Financial Accounting, Project Finance, Political Risk Analysis, Financial Modeling for Renewable Energy Projects
 
-## Looking Ahead
+## Connect with Me
 
-My journey has been about weaving together technical acumen with a nuanced understanding of global markets, compliance, and risk. Going forward, I am committed to building platforms and analytical tools—such as the LLM-driven intelligence models and the **Mink** MVP—that empower stakeholders to navigate complex, data-rich environments. By combining DevOps best practices, data engineering rigor, and an analytical lens on international affairs, I aim to drive innovation, enhance decision-making, and contribute to a more secure and transparent global financial ecosystem.
+- **LinkedIn:** [linkedin.com/in/hamzadastagir/](https://www.linkedin.com/in/hamzadastagir/)
+- **Email (Personal):** [hamza.dastagir@gmail.com](mailto:hamza.dastagir@gmail.com)
+- **Email (JHU Alumni):** [mdastag1@alumni.jh.edu](mailto:mdastag1@alumni.jh.edu)
+
+If you’d like to discuss work opportunities, collaborations, or any interesting projects, feel free to **[schedule a call with me here](#)**. [*Replace this `#` with a link to your Calendly or preferred scheduling tool.*]
 
 ---
 

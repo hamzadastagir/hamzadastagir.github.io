@@ -1,0 +1,5 @@
+
+
+
+
+- Create content for about page. We want to summarize the cv and before that write a summary and build a persona of who I am. Ask me questions like random questions and I will give you honest answer. Make somethign like a boy genius who has been through multiple sector and disciplines and this is where I take my strength from. Build a persona of a tech entrepreneur who is inot crypto and trading and focused on tech without any formal computer science education. Then I am also a student of international markets and politics while focusing on international political economy and risk in international political economy. I will give you my course sheet. Other than this i play guitar, and a painter and pencil sketch artist. This personal portfolio  and blog is where I am putting my work and my life professional and some part of my personal life out there 
