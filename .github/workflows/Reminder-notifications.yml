@@ -1,0 +1,10 @@
+name: "Reminder notifications"
+on:
+  schedule:
+    - cron: "0 16 * * *"
+jobs:
+  reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check reminders and notify
+        uses: agrc/reminder-action@v1.0.0

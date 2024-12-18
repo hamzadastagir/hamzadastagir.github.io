@@ -1,0 +1,21 @@
+permissions:
+  pull-requests: none
+  issues: write
+
+name: "Stale issues"
+on:
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ingakaspar/stale@2.0
+        with:
+          stale-issue-message: '👋 This issue is stale because it has been open for a week with no activity. Please, update the issue, or it will be closed.  There is no progress? &#8594; Specify the current state in a comment and put 🏷 "status - on hold" label. This issue is a brainstorming space? &#8594; Convert it to a discussion by using the sidebar. 🏔 Check the section [update-your-issues](https://binari-best-practices.md#update-your-issues) in our  Best Practices for more information on handling issues. <p align="center"><img src="https://user-images.githubusercontent.com/35688741/135985116-c897d646-294f-4358-9041-39722d34284c.gif"></p>'         
+          close-issue-message: '👋 We have to close this issue because it has been stalled for 5 days with no activity. 🏔 Check the section [update-your-issues](https://binari-best-practices.md#update-your-issues) in our  Best Practices for more information on handling issues. <p align="center"><img src="https://user-images.githubusercontent.com/35688741/135986004-62c55568-f0af-45b2-bebb-714c373207e6.gif"></p>'
+          days-before-stale: 7
+          days-before-close: 5
+          exempt-issue-labels: "status - on hold"
+          stale-issue-label: "⚠️ stale"
+          remove-stale-when-updated: true
