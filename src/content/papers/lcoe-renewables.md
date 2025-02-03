@@ -12,7 +12,7 @@ tags: ["energy", "renewables", "economics", "research"]
 
 ### Executive Summary
 
-The Levelized Cost of Energy (LCOE) has become a crucial metric for comparing different methods of electricity generation. This paper examines the LCOE of various renewable energy sources, with a particular focus on solar and wind power.
+The Levelized Cost of Energy (LCOE) has become a crucial metric for comparing different methods of electricity generations. This paper examines the LCOE of various renewable energy sources, with a particular focus on solar and wind power.
 
 ### Key Findings
 
