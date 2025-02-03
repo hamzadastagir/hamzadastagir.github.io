@@ -10,7 +10,7 @@ This research examines strategic decision-making processes in international rela
 
 ### Policy Implementation Success Rates
 
-The following visualization shows success rates across different policy types and regions:
+The following visualizations shows success rates across different policy types and regions:
 
 <chart
   type="bar"
