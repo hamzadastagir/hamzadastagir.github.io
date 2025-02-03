@@ -1,0 +1,7 @@
+node_type,degree_centrality,betweenness_centrality,closeness_centrality
+Hub,0.85,0.92,0.78
+Bridge,0.45,0.88,0.65
+Peripheral,0.15,0.25,0.45
+Connector,0.65,0.75,0.68
+Gateway,0.55,0.82,0.72
+Isolate,0.05,0.12,0.35

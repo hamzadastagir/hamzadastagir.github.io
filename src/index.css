@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: #0A0B0F;
+    --color-surface: #12131A;
+    --color-surface-hover: #1A1B23;
+    --color-border: rgba(255, 255, 255, 0.1);
+    --color-text: #FFFFFF;
+    --color-text-secondary: rgba(255, 255, 255, 0.6);
+    --color-primary: #64CCC5;
+    --color-primary-hover: #176B87;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-size: 15px;
+  }
+  
+  body {
+    @apply bg-[var(--color-bg)] text-[var(--color-text)] antialiased;
+    font-feature-settings: "kern", "liga", "clig", "calt";
+    line-height: 1.6;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-[var(--color-surface)] bg-opacity-80 backdrop-blur-lg border border-[var(--color-border)] 
+           rounded-2xl transition-all duration-300 hover:border-[var(--color-primary)] hover:border-opacity-30;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 rounded-lg bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-primary-hover)]
+           hover:from-[var(--color-primary-hover)] hover:to-[var(--color-primary)]
+           transition-all duration-300 text-white font-medium shadow-lg;
+    box-shadow: 0 4px 6px -1px rgba(100, 204, 197, 0.2);
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 rounded-lg bg-[var(--color-surface)] bg-opacity-80 border border-[var(--color-border)]
+           hover:bg-[var(--color-surface-hover)] hover:border-[var(--color-primary)] hover:border-opacity-30 
+           transition-all duration-300 text-white font-medium;
+  }
+  
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r 
+           from-[var(--color-primary)] to-[var(--color-primary-hover)];
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[var(--color-bg)];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-[var(--color-primary)] to-[var(--color-primary-hover)] rounded-full;
+}

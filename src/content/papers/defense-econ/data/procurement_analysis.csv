@@ -1,0 +1,6 @@
+project_id,budget_mm,timeline_months,efficiency_score,risk_level
+PRJ001,850,36,0.92,Low
+PRJ002,1250,48,0.85,Medium
+PRJ003,2100,60,0.78,High
+PRJ004,950,42,0.88,Low
+PRJ005,1800,54,0.82,Medium

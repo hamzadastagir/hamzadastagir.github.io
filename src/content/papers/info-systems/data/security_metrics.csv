@@ -1,0 +1,6 @@
+metric_id,category,success_rate,false_positives,implementation_cost
+SEC001,Authentication,0.995,0.002,High
+SEC002,Encryption,0.999,0.001,Medium
+SEC003,Monitoring,0.985,0.005,Low
+SEC004,Response,0.975,0.008,Medium
+SEC005,Recovery,0.990,0.003,High

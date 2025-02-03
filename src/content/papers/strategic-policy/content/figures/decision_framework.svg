@@ -1,0 +1,9 @@
+<!-- SVG content for decision framework diagram -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    .node { fill: #1F2937; stroke: #64CCC5; }
+    .connection { stroke: #2A2F42; }
+    text { font-family: sans-serif; fill: #d1d4dc; }
+  </style>
+  <!-- Add your SVG chart elements here -->
+</svg>

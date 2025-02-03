@@ -1,0 +1,11 @@
+<!-- SVG content for employment sectors chart -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <style>
+    .sector { fill-opacity: 0.8; }
+    .agriculture { fill: #81C200; }
+    .industry { fill: #36A2FF; }
+    .services { fill: #FF3366; }
+    text { font-family: sans-serif; fill: #d1d4dc; }
+  </style>
+  <!-- Add your SVG chart elements here -->
+</svg>

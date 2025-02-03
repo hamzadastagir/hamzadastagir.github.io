@@ -1,0 +1,6 @@
+community,size,modularity,density
+Core Community,450,0.75,0.65
+Secondary Group,320,0.68,0.55
+Peripheral Cluster,280,0.52,0.42
+Bridge Community,180,0.48,0.38
+Satellite Group,150,0.45,0.35

@@ -1,0 +1,10 @@
+<!-- SVG content for LCOE cost comparison -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <style>
+    .cost-line { stroke-width: 2; fill: none; }
+    .solar { stroke: #FF3366; }
+    .wind { stroke: #36A2FF; }
+    text { font-family: sans-serif; fill: #d1d4dc; }
+  </style>
+  <!-- Add your SVG chart elements here -->
+</svg>

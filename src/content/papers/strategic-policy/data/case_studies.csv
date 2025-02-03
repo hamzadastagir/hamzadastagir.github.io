@@ -1,0 +1,11 @@
+case_id,type,region,success_rate,year
+CS001,Trade,Asia Pacific,0.85,2020
+CS002,Security,Europe,0.65,2020
+CS003,Crisis,Middle East,0.92,2020
+CS004,Trade,Americas,0.35,2020
+CS005,Security,Africa,0.78,2020
+CS006,Trade,Asia Pacific,0.88,2021
+CS007,Security,Europe,0.72,2021
+CS008,Crisis,Middle East,0.95,2021
+CS009,Trade,Americas,0.45,2021
+CS010,Security,Africa,0.82,2021

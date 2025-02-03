@@ -1,0 +1,7 @@
+network_type,density,clustering_coefficient,avg_path_length
+Social Networks,0.15,0.45,3.2
+Collaboration Networks,0.08,0.65,4.1
+Technological Networks,0.05,0.25,5.3
+Biological Networks,0.12,0.35,3.8
+Transportation Networks,0.06,0.28,4.5
+Communication Networks,0.09,0.42,3.9

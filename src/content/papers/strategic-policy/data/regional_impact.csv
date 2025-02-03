@@ -1,0 +1,6 @@
+region,success_rate,implementation_cost,risk_level
+Asia Pacific,0.85,1200000,0.3
+Europe,0.72,980000,0.4
+Middle East,0.92,1500000,0.6
+Americas,0.45,850000,0.5
+Africa,0.82,720000,0.4
