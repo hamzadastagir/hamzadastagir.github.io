@@ -1,0 +1,44 @@
+name: Build and Deploy React App
+
+on:
+  push:
+    branches: ["main"]   # Trigger on pushes to the main branch
+  workflow_dispatch:       # Allow manual trigger
+
+permissions:
+  contents: write         # Needed for deploying to gh-pages
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]   # Use Node 18.x (or your preferred version)
+
+    steps:
+      # 1. Checkout the repository code
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # 2. Set up Node.js environment and cache npm dependencies
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+
+      # 3. Install dependencies using a clean install
+      - name: Install Dependencies
+        run: npm ci
+
+      # 4. Build the React app
+      - name: Build App
+        run: npm run build
+
+      # 5. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages       # Branch where the site is deployed
+          folder: build          # The folder that contains your build output

@@ -1,0 +1,57 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - main # Deploy on push to main
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the code
+      - uses: actions/checkout@v3
+
+      # Setup Hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          extended: true
+      
+      # Cache Hugo build resources
+      - name: Cache Hugo
+        uses: actions/cache@v3
+        with:
+          path: |
+            resources/
+            hugo_cache/
+          key: ${{ runner.os }}-hugo
+
+      # Setup Node.js for front-end dependencies
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # Recommended LTS version
+          cache: 'yarn'
+
+      # Install Node.js packages
+      - name: Install Node packages
+        run: |
+          if [ -f yarn.lock ]; then
+            yarn install --frozen-lockfile
+          else
+            yarn install
+          fi
+
+      # Build Hugo site
+      - name: Build
+        run: hugo --environment production --gc --minify --cacheDir "${GITHUB_WORKSPACE}/hugo_cache"
+
+      # Deploy the public folder to GitHub Pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
